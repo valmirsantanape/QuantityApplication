@@ -14,6 +14,8 @@ public class program {
        JButton buttonMenos = new JButton("-");
        frame.setLayout(new GridLayout(1,4));
 
+       label.setHorizontalAlignment(JLabel.CENTER);
+       textFilde.setHorizontalAlignment(JTextField.CENTER);
        frame.add(label);
        frame.add(textFilde);
        frame.add(buttonMais);
